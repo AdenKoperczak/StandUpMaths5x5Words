@@ -1,3 +1,9 @@
+# compiled stuff
+main_v*
+
+# outputs
+*.csv
+
 # Prerequisites
 *.d
 
