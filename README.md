@@ -122,3 +122,5 @@ Maybe there is some optimization I think of and want to implement, I will
 implement it.
 
 
+# Contributing
+This is a me project. If you want to update or use my code, feel free to fork it.
