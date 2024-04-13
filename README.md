@@ -47,6 +47,14 @@ a bit broken on my computer anyway, so I used `make` instead.
 The input file is one word per line, and the output file is a CSV with each line
 containing one set of words.
 
+## `generate_list`
+- `make generate_list`
+- `./generate_list words_alpha.txt valid_words.txt` to make `valid_words.txt`
+
+This program generates a `valid_words.txt`, which is simply a stripped down
+version of `words_alpha.txt` with only 5 letter long words with all unique
+letters. This was only used to help see what words are in `words_alpha.txt`.
+
 # My Computer
 I am running this code on `WSL` on a Windows 10 laptop. I have a AMD Ryzen 9
 Mobile 4900HS with a base speed of 3 GHz. I was using the `time` command to
