@@ -21,7 +21,7 @@ programming language, `zig`. Because I am just learning this language, I may not
 have all the patterns down yet, so the code may be a bit messy. Furthermore,
 there is not much code, I was making rapid iterations, and I was working on my
 own, so I did not comment much. I made several versions which are explained in
-[Versions]{#versions}. I also am only familiar with the basics of graph theory,
+Versions. I also am only familiar with the basics of graph theory,
 so my solution is not necessary optimal. Many others have made far better
 solutions, but I tried to avoid pull from their code or ideas (manly by not
 reading them). Finally, all of my solutions are single threaded, because I could
@@ -61,7 +61,7 @@ I am running this code on `WSL` on a Windows 10 laptop. I have a AMD Ryzen 9
 Mobile 4900HS with a base speed of 3 GHz. I was using the `time` command to
 measure the times. All times are in `[m]m:ss` format.
 
-# Versions {#versions}
+# Versions
 ## `main_v1`
 About 2:30.
 
