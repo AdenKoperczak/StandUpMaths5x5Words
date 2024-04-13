@@ -2,12 +2,16 @@
 The goal of this program is to find all sets of five five-letter words where all
 the letters are unique. This challenge was brought forth by a series of videos from
 the wonderful Matt Parker which I highly recommend if you have not already seem
-them. Here is the first video. <https://www.youtube.com/watch?v=_-AfhLQfb6w>. There
-is also a podcast episode and further videos linked in the description.
+them. Here is the first video. \(<https://www.youtube.com/watch?v=_-AfhLQfb6w\)>.
+He made a follow up about others improvements to his code \(<https://www.youtube.com/watch?v=c33AZBnRHks&t=805s>\)
+and Benjamin Paassen made a spreadsheet of those implementations
+\(<https://docs.google.com/spreadsheets/d/11sUBkPSEhbGx2K8ah6WbGV62P8ii5l5vVeMpkzk17PI/edit#gid=0>\).
+All of these acted as major inspirations for me making this project.
 
 ## More Specifics
 - How do I determine what a word is? In this case, `words_alpha.txt` contains
 (what we are considering to be) every English word, lower case, one per line.
+This file comes from here. <https://github.com/dwyl/english-words>
 - What are valid letters? I am just using the standard, 26 letter alphabet. This
 means that the set of words will end up having 25 of the 26 letters.
 
@@ -57,7 +61,7 @@ It stores words as bit-masks for quicker comparisons. It does not recheck
 already checked combinations of words. It also implements one algorithmic
 optimization. It only checks words that will work with the first word in each
 layer. This improves performance, but is pretty basic. It also uses unbuffered
-IO, which is slow, but not too slow for this version.
+IO, which is slow, but not too slow for this version. I use recursion as well.
 
 ## `main_v2`
 About 3:00
@@ -92,9 +96,8 @@ nicer.
 
 # Future Optimizations
 ## Letter Based
-This is roughly based off other solutions, but I only read a brief description,
-and I do not know did not look at their code. This is what I have read.
-[Spreadsheet with others submissions](https://docs.google.com/spreadsheets/d/11sUBkPSEhbGx2K8ah6WbGV62P8ii5l5vVeMpkzk17PI/edit#gid=0)
+This is roughly based off other solutions, but I only read the brief descriptions
+on the spreadsheet, and I do not know did not look at their code.
 The main optimization I would like to add is separating words into groups based
 off what letter they do not have (one group with all words without 'a',
 one group with all words without 'b', etc), and only checking those without the
