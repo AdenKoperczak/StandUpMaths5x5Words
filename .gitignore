@@ -1,5 +1,6 @@
 # compiled stuff
 main_v*
+generate_list
 
 # outputs
 *.csv
