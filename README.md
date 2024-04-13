@@ -6,7 +6,7 @@ them. Here is the first video. <https://www.youtube.com/watch?v=_-AfhLQfb6w>. Th
 is also a podcast episode and further videos linked in the description.
 
 ## More Specifics
-- How do I determine what a word is? In this case, `words\_alpha.txt` contains
+- How do I determine what a word is? In this case, `words_alpha.txt` contains
 (what we are considering to be) every English word, lower case, one per line.
 - What are valid letters? I am just using the standard, 26 letter alphabet. This
 means that the set of words will end up having 25 of the 26 letters.
@@ -34,7 +34,7 @@ which was quite slow, so I have not included it.
 - each version takes the word list file as the first argument and the output
 CSV file as the second argument.
 
-First of all, you will need `zig` to build this. I used `zig` 0.11.0. `main\_v4`
+First of all, you will need `zig` to build this. I used `zig` 0.11.0. `main_v4`
 will not work without `zig` 0.11. All of the code can be build with a simple
 `make` call, but this will make unoptimized versions. `make fast` will make a
 optimized versions. I do not know how to use `zig`'s build environment, and it is
@@ -62,9 +62,9 @@ IO, which is slow, but not too slow for this version.
 ## `main_v2`
 About 3:00
 
-This version is just `main\_v1` but using pointers in place of indices. It is
-slower than `main\_v1` but I am unsure why. I was struggling to disassemble the
-code in `gdb` and ended up moving on to `main\_v3`.
+This version is just `main_v1` but using pointers in place of indices. It is
+slower than `main_v1` but I am unsure why. I was struggling to disassemble the
+code in `gdb` and ended up moving on to `main_v3`.
 
 ## `main_v3`
 About 0:16
@@ -81,7 +81,7 @@ essentially all of that time, bringing it to around 0:16.
 ## `main_v4`
 About 0:16
 
-This is essentially the same as `main\_v3`, with a few low level changes. First
+This is essentially the same as `main_v3`, with a few low level changes. First
 of all, I switched to using `mmap` for file IO. I do not think this actually
 helps that much, but I did it any ways. (This is something I say others do, and
 it helped them, but I think that had more to do with multithreading than anything
