@@ -30,7 +30,7 @@ I did have an old C version, but it was a very basic iterative approach,
 which was quite slow, so I have not included it.
 
 # Building and Running the Code.
-- `zig` 0.11.0 or greater
+- `zig` 0.11.0 or greater preferable
 - made for Linux (distro probably does not matter).
 - `make` for unoptimized
 - `make fast` for optimized
@@ -39,7 +39,7 @@ which was quite slow, so I have not included it.
 CSV file as the second argument.
 
 First of all, you will need `zig` to build this. I used `zig` 0.11.0. `main_v4`
-will not work without `zig` 0.11. All of the code can be build with a simple
+may not work without `zig` 0.11.0. All of the code can be build with a simple
 `make` call, but this will make unoptimized versions. `make fast` will make a
 optimized versions. I do not know how to use `zig`'s build environment, and it is
 a bit broken on my computer anyway, so I used `make` instead.
