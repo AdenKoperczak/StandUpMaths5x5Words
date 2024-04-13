@@ -56,6 +56,9 @@ This program generates a `valid_list.txt`, which is simply a stripped down
 version of `words_alpha.txt` with only 5 letter long words with all unique
 letters. This was only used to help see what words are in `words_alpha.txt`.
 
+## `output.csv`
+The example full output is hear for comparison.
+
 # My Computer
 I am running this code on `WSL` on a Windows 10 laptop. I have a AMD Ryzen 9
 Mobile 4900HS with a base speed of 3 GHz. I was using the `time` command to
