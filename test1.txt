@@ -1,0 +1,14 @@
+int
+abs
+abc
+aaaaa
+bbbbb
+abcde
+zabcd
+fghij
+klmno
+pqrst
+uvwxy
+vwxyz
+abcdef
+abcdefg
