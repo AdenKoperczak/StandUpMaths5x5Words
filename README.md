@@ -94,7 +94,7 @@ nicer.
 ## Letter Based
 This is roughly based off other solutions, but I only read a brief description,
 and I do not know did not look at their code. This is what I have read.
-[Spreadsheet with others submissions](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbmZFRWpoMkI4dGkyM2plejN5MFE2U296U2ZFUXxBQ3Jtc0trbTVCMmtNOHRXR2xhOTRKckEtUllYX2VXRy1oX19tSVJxMTFqYTZMRjVvYTN1OVN6MVZmd185N2Y0QmNReTZvdEZPeVlac2plQnY0WHg4VHpYY01yVFpzSHZUUjIzUk9RUk12ZlV5NlNnazdBVjhaZw&q=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2F11sUBkPSEhbGx2K8ah6WbGV62P8ii5l5vVeMpkzk17PI%2Fedit%23gid%3D0&v=c33AZBnRHks)
+[Spreadsheet with others submissions](https://docs.google.com/spreadsheets/d/11sUBkPSEhbGx2K8ah6WbGV62P8ii5l5vVeMpkzk17PI/edit#gid=0)
 The main optimization I would like to add is separating words into groups based
 off what letter they do not have (one group with all words without 'a',
 one group with all words without 'b', etc), and only checking those without the
