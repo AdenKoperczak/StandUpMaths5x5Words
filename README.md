@@ -49,9 +49,9 @@ containing one set of words.
 
 ## `generate_list`
 - `make generate_list`
-- `./generate_list words_alpha.txt valid_words.txt` to make `valid_words.txt`
+- `./generate_list words_alpha.txt valid_list.txt` to make `valid_list.txt`
 
-This program generates a `valid_words.txt`, which is simply a stripped down
+This program generates a `valid_list.txt`, which is simply a stripped down
 version of `words_alpha.txt` with only 5 letter long words with all unique
 letters. This was only used to help see what words are in `words_alpha.txt`.
 
