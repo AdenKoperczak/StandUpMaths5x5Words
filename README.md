@@ -37,6 +37,7 @@ which was quite slow, so I have not included it.
 - each version will be under `main_v*`
 - each version takes the word list file as the first argument and the output
 CSV file as the second argument.
+- basic usage would be `./main_v1 words_alpha.txt output1.csv`
 
 First of all, you will need `zig` to build this. I used `zig` 0.11.0. `main_v4`
 may not work without `zig` 0.11.0. All of the code can be build with a simple
